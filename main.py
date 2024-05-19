@@ -82,7 +82,6 @@ def make_coffee(name):
 while start:
     user = str(input("What do you want?"))
     user = user.lower()
-    # TODO: 1. Turn off machine
     if user != "off" or user != "report" or user != "latte" or user != "espresso" or user != "cappuccino":
         print("Invalid input")
     elif user == "off":
